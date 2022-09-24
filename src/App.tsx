@@ -1,4 +1,5 @@
 import { Navigation } from "./components/Navigation";
+import { Projects } from "./components/Projects";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,6 +11,7 @@ function App() {
       <Navigation />
       <Banner />
       <Skills />
+      <Projects />
     </div>
   );
 }
