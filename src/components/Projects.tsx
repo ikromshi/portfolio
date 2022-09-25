@@ -11,16 +11,19 @@ export const Projects = () => {
       title: "Crown Clothing",
       description: "This is the biggest project I've worked on so far",
       imgUrl: crownClothing,
+      webUrl: "https://crown-clothing-ikk.netlify.app/"
     }, 
     {
       title: "Title",
       description: "Description",
       imgUrl: dijkstra,
+      webUrl: "https://pathfinding-algorithm-ikk.netlify.app/"
     }, 
     {
       title: "Title",
       description: "Description",
       imgUrl: monsterRolodex,
+      webUrl: "https://monsters-ikk.netlify.app/"
     }
   ];
 
