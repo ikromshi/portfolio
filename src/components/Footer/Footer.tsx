@@ -10,10 +10,10 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-        <Col sm={6}>
+        <Col xm={6}>
           <img src={logo} alt="logo" />
         </Col>
-        <Col sm={6} className="text-cente text-sm-end">
+        <Col xm={6} className="text-cente text-sm-end">
           <div className="social-icon">
             <a href=""><img src={NavIcon1} alt="" /></a>
             <a href=""><img src={NavIcon2} alt="" /></a>
