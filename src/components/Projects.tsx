@@ -1,38 +1,26 @@
 import { Container, Row, Col, Tab, Nav} from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/image/color-sharp2.png";
+import crownClothing from "../assets/image/crown-clothing.png";
+import dijkstra from "../assets/image/dijkstra.png";
+import monsterRolodex from "../assets/image/monster-rolodex.png";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Title",
-      description: "Description",
-      imgUrl: "Image URL",
+      title: "Crown Clothing",
+      description: "This is the biggest project I've worked on so far",
+      imgUrl: crownClothing,
     }, 
     {
       title: "Title",
       description: "Description",
-      imgUrl: "Image URL",
+      imgUrl: dijkstra,
     }, 
     {
       title: "Title",
       description: "Description",
-      imgUrl: "Image URL",
-    }, 
-    {
-      title: "Title",
-      description: "Description",
-      imgUrl: "Image URL",
-    }, 
-    {
-      title: "Title",
-      description: "Description",
-      imgUrl: "Image URL",
-    }, 
-    {
-      title: "Title",
-      description: "Description",
-      imgUrl: "Image URL",
+      imgUrl: monsterRolodex,
     }
   ];
 
