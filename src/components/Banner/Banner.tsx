@@ -7,7 +7,7 @@ import "./Banner.css";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const wordsToRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const wordsToRotate = ["Web Developer.", "CS Sophomore.", "React Developer."];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random()*100)
   const period = 2000;
@@ -44,7 +44,7 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-cente">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio!</span>
+            {/* <span className="tagline">Welcome to my Portfolio!</span> */}
             <h1>{`Hi, I'm Ikrom. I am a `}<span className="wrap">{text}</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia labore sapiente tempora ipsa dolores quaerat quidem maxime eius debitis sequi, cumque ad provident reiciendis quo repellat molestias voluptates rem!</p>
             <button onClick={() => console.log("Cliked")}>Let's connect <ArrowRightCircle size={25}/></button>
