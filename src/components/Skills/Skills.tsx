@@ -1,10 +1,11 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap"; 
-import meter1 from "../assets/image/meter1.svg";
-import meter2 from "../assets/image/meter2.svg";
-import meter3 from "../assets/image/meter3.svg";
-import colorSharp from "../assets/image/color-sharp.png";
+import meter1 from "../../assets/image/meter1.svg";
+import meter2 from "../../assets/image/meter2.svg";
+import meter3 from "../../assets/image/meter3.svg";
+import colorSharp from "../../assets/image/color-sharp.png";
+import "./Skills.css";
 
 export const Skills = () => {
   const responsive = {

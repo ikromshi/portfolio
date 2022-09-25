@@ -1,9 +1,10 @@
 import { Container, Row, Col, Tab, Nav} from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorSharp2 from "../assets/image/color-sharp2.png";
-import crownClothing from "../assets/image/crown-clothing.png";
-import dijkstra from "../assets/image/dijkstra.png";
-import monsterRolodex from "../assets/image/monster-rolodex.png";
+import colorSharp2 from "../../assets/image/color-sharp2.png";
+import crownClothing from "../../assets/image/crown-clothing.png";
+import dijkstra from "../../assets/image/dijkstra.png";
+import monsterRolodex from "../../assets/image/monster-rolodex.png";
+import "./Projects.css";
 
 export const Projects = () => {
   const projects = [
@@ -37,13 +38,13 @@ export const Projects = () => {
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                  <Nav.Link eventKey="first">TS React</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                  <Nav.Link eventKey="second">Vanilla JS</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                  <Nav.Link eventKey="third">Others</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content >
