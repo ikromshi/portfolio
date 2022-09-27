@@ -10,19 +10,19 @@ export const Projects = () => {
   const projects = [
     {
       title: "Crown Clothing",
-      description: "This is the biggest project I've worked on so far",
+      description: "Browse through the clothes on my E-Commerce project. You can even pay for the items you add to your card - you won't be able to buy them though. More info on my GitHub.",
       imgUrl: crownClothing,
       webUrl: "https://crown-clothing-ikk.netlify.app/"
     }, 
     {
-      title: "Title",
-      description: "Description",
+      title: "Dijkstra Visualizer",
+      description: "Check out my version of the Dijkstra Visualizer. You can build walls around the Start and End nodes to find the shortest path between them.",
       imgUrl: dijkstra,
       webUrl: "https://pathfinding-algorithm-ikk.netlify.app/"
     }, 
     {
-      title: "Title",
-      description: "Description",
+      title: "Monsters Rolodex",
+      description: "This is my first React project. Here I'm pulling raw data from the Robohash API to build multiple cards of Robots that you can filter by name.",
       imgUrl: monsterRolodex,
       webUrl: "https://monsters-ikk.netlify.app/"
     }
@@ -34,7 +34,7 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos totam aliquam magnam corporis voluptate neque voluptas vero, adipisci, nostrum beatae ab atque consequatur distinctio nobis commodi asperiores placeat odit! Labore!</p>
+            <p>Click through my projects below.</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>

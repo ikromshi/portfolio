@@ -75,3 +75,14 @@
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+#telegram-link  {
+  color: rgb(217, 207, 207);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#telegram-link:hover  {
+  color: white;
+  text-decoration: none;
+}
