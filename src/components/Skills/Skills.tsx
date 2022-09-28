@@ -18,8 +18,10 @@ import sass from "../../assets/skill-logos/sass.svg";
 import sqlalchemy from "../../assets/skill-logos/sqlalchemy.svg";
 import sqlite from "../../assets/skill-logos/sqlite.svg";
 import typescript from "../../assets/skill-logos/typescript.svg";
+import firestore from "../../assets/skill-logos/firestore.svg";
 import colorSharp from "../../assets/image/color-sharp.png";
 import arrow1 from "../../assets/image/arrow1.svg";
+
 import "./Skills.css";
 
 export const Skills = () => {
@@ -83,17 +85,67 @@ export const Skills = () => {
                 </Col>
                 
               </Row>
-              <h4>Frameworks I commonly use:</h4>
+              <h4>Tools I commonly in my front-end projects:</h4>
               <Row className="skill-slider">
                 <Col className="item">
                   <img src={react} alt="Img" className="img"/>
                   <h5>React</h5>
                 </Col>
                 <Col className="item">
+                  <img src={redux} alt="Img" />
+                  <h5>Redux</h5>
+                </Col>
+                <Col className="item">
+                  <img src={firebase} alt="Img" />
+                  <h5>Firebase</h5>
+                </Col>
+                <Col className="item">
+                  <img src={firestore} alt="Img" />
+                  <h5>Firestore</h5>
+                </Col>
+                <Col className="item">
+                  <img src={sass} alt="Img" />
+                  <h5>Sass</h5>
+                </Col>
+                <Col className="item">
+                  <img src={git} alt="Img" />
+                  <h5>Git</h5>
+                </Col>
+                <Col className="item">
+                  <img src={github} alt="Img" />
+                  <h5>Github</h5>
+                </Col>
+              </Row>
+              <h4>Tools I'm currently learning:</h4>
+              <Row className="skill-slider">
+                <Col className="item">
+                  {/* <img src={react} alt="Img" className="img"/>
+                  <h5>React</h5> */}
+                </Col>
+                <Col className="item">
+                  {/* <img src={redux} alt="Img" />
+                  <h5>Redux</h5> */}
+                </Col>
+                <Col className="item">
                   <img src={flask} alt="Img" />
                   <h5>Flask</h5>
                 </Col>
-                {/*add empty columns to get the same size*/}
+                <Col className="item">
+                  <img src={sqlalchemy} alt="Img" />
+                  <h5>SQLAlchemy</h5>
+                </Col>
+                <Col className="item">
+                  <img src={sqlite} alt="Img" />
+                  <h5>SQLite</h5>
+                </Col>
+                <Col className="item">
+                  {/* <img src={git} alt="Img" />
+                  <h5>Git</h5> */}
+                </Col>
+                <Col className="item">
+                  {/* <img src={github} alt="Img" />
+                  <h5>Github</h5> */}
+                </Col>
               </Row>
             </div>
           </Col>
