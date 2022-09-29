@@ -100,12 +100,12 @@ export const Skills = () => {
                   <h5>Firebase</h5>
                 </Col>
                 <Col className="item">
-                  <img src={firestore} alt="Img" />
-                  <h5>Firestore</h5>
-                </Col>
-                <Col className="item">
                   <img src={sass} alt="Img" />
                   <h5>Sass</h5>
+                </Col>
+                <Col className="item">
+                  <img src={firebase} alt="Img" />
+                  <h5>Firestore</h5>
                 </Col>
                 <Col className="item">
                   <img src={git} alt="Img" />
