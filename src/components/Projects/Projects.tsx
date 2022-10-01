@@ -94,8 +94,8 @@ export const Projects = () => {
                     }
                   </Row>
                 </Tab.Pane>
-                <Tab.Pane eventKey="third">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                <Tab.Pane className="other-projects" eventKey="third">
+                    <p>Check out my <a href="https://github.com/ikromshi">GitHub page</a> to see other fun projects that I'm constantly working on in my own time as well as in classes I'm taking in college!</p>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
