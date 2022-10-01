@@ -51,8 +51,8 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, animi amet. Placeat, culpa animi. Est explicabo totam sit perferendis a et iste, amet neque nam, ab, aut similique magni perspiciatis.</p>
+              <h2>My Skills</h2>
+              <p>I have a wide variety of experience with the tools shown below.</p>
               <h4>Languages I am proficient in:</h4>
               <Row className="skill-slider">
                 <Col className="item">
