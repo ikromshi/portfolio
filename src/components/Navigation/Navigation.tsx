@@ -45,13 +45,15 @@ export const Navigation = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={NavIcon1} alt="social" /></a>
-              <a href="#"><img src={NavIcon2} alt="social" /></a>
+              <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap"><img src={NavIcon1} alt="social" /></a>
+              <a href="https://github.com/ikromshi"><img src={NavIcon2} alt="social" /></a>
               <a href="#"><img src={NavIcon3} alt="social" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log("Clicked")}>
-              <span>Let's Connect</span>
-            </button>
+            <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank">
+              <button className="vvd">
+                Let's Connect
+              </button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>
