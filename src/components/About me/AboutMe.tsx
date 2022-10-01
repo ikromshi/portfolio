@@ -54,6 +54,11 @@ export const AboutMe = () => {
           </Col>
           <Col md={6}>
             <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
           </Col>
         </Row>
       </Container>
