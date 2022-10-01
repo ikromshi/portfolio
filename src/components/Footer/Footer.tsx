@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../assets/image/logo.svg";
-import NavIcon1 from "../../assets/image/nav-icon1.svg";
-import NavIcon2 from "../../assets/image/nav-icon2.svg";
-import NavIcon3 from "../../assets/image/nav-icon3.svg";
+import Email from "../../assets/image/email.png";
+import LinkedIn from "../../assets/image/linkedin2.png";
+import Github from "../../assets/image/github.png";
 import "./Footer.css";
 
 export const Footer = () => {
@@ -10,14 +10,14 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-        <Col xm={6} className="text-center text-sm-end">
-          <div className="social-icon">
-            <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank"><img src={NavIcon1} alt="" /></a>
-            <a href="https://github.com/ikromshi" target="blank"><img src={NavIcon2} alt="" /></a>
-            <a href=""><img src={NavIcon3} alt="" /></a>
+        {/* <Col xm={6} className="text-center text-sm-end"> */}
+          <div id="social-icon">
+            <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank"><img src={LinkedIn} alt="" /></a>
+            <a href="https://github.com/ikromshi" target="blank"><img src={Github} alt="" /></a>
+            <a href=""><img src={Email} alt="" /></a>
           </div>
-          <p>CopyRight 2022. All Rights Reserved by <a href="https://t.me/ikromshi" id="telegram-link">Ikromshi.</a></p>
-        </Col>
+          <p><a href="https://t.me/ikromshi" id="telegram-link">Ikromshi</a></p>
+        {/* </Col> */}
         </Row>
       </Container>
     </footer>
