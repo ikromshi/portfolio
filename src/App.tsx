@@ -1,6 +1,6 @@
 import { Navigation } from "./components/Navigation/Navigation";
 import { Projects } from "./components/Projects/Projects";
-import { Contact } from "./components/Contact/Contact";
+import { AboutMe } from "./components/About me/AboutMe";
 import { Banner } from "./components/Banner/Banner";
 import { Skills } from "./components/Skills/Skills";
 import { Footer } from "./components/Footer/Footer";
@@ -14,7 +14,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <Contact />
+      <AboutMe />
       <Footer />
     </div>
   );
