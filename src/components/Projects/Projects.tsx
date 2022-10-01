@@ -3,11 +3,14 @@ import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../../assets/image/color-sharp2.png";
 import crownClothing from "../../assets/image/crown-clothing.png";
 import dijkstra from "../../assets/image/dijkstra.png";
+import todoApp from "../../assets/image/todo-app.png";
+import notesApp from "../../assets/image/notes-app.png";
+import hangmanApp from "../../assets/image/hangman-app.png";
 import monsterRolodex from "../../assets/image/monster-rolodex.png";
 import "./Projects.css";
 
 export const Projects = () => {
-  const projects = [
+  const reactProjects = [
     {
       title: "Crown Clothing",
       description: "Browse through the clothes on my E-Commerce project. You can even pay for the items you add to your card - you won't be able to buy them though. More info on my GitHub.",
@@ -27,6 +30,27 @@ export const Projects = () => {
       webUrl: "https://monsters-ikk.netlify.app/"
     }
   ];
+
+  const jsProjects = [
+    {
+      title: "Hangman",
+      description: "This is my first React project. Here I'm pulling raw data from the Robohash API to build multiple cards of Robots that you can filter by name.",
+      imgUrl: hangmanApp,
+      webUrl: "https://hangman-ikk.netlify.app/"
+    },
+    {
+      title: "Notes App",
+      description: "This is my first React project. Here I'm pulling raw data from the Robohash API to build multiple cards of Robots that you can filter by name.",
+      imgUrl: notesApp,
+      webUrl: "https://note-ikk.netlify.app/"
+    },
+    {
+      title: "To-Do app",
+      description: "This is my first React project. Here I'm pulling raw data from the Robohash API to build multiple cards of Robots that you can filter by name.",
+      imgUrl: todoApp,
+      webUrl: "https://todo-ikk.netlify.app/"
+    }
+  ]
 
   return (
     <section className="project" id="projects">
@@ -51,7 +75,7 @@ export const Projects = () => {
                 <Tab.Pane eventKey="first">
                   <Row>
                     {
-                      projects.map((project, index) => {
+                      reactProjects.map((project, index) => {
                         return (
                           <ProjectCard key={index} {...project}/>
                         )
@@ -60,7 +84,15 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                <Row>
+                    {
+                      jsProjects.map((project, index) => {
+                        return (
+                          <ProjectCard key={index} {...project}/>
+                        )
+                      })
+                    }
+                  </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
