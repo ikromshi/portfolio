@@ -1,4 +1,3 @@
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap"; 
 import css from "../../assets/skill-logos/css.svg";
@@ -6,7 +5,6 @@ import firebase from "../../assets/skill-logos/firebase.svg";
 import flask from "../../assets/skill-logos/flask.svg";
 import git from "../../assets/skill-logos/git.svg";
 import github from "../../assets/skill-logos/github.svg";
-import graphql from "../../assets/skill-logos/graphql.svg";
 import html from "../../assets/skill-logos/html.svg";
 import java from "../../assets/skill-logos/java.svg";
 import javascript from "../../assets/skill-logos/javascript.svg";
@@ -18,9 +16,8 @@ import sass from "../../assets/skill-logos/sass.svg";
 import sqlalchemy from "../../assets/skill-logos/sqlalchemy.svg";
 import sqlite from "../../assets/skill-logos/sqlite.svg";
 import typescript from "../../assets/skill-logos/typescript.svg";
-import firestore from "../../assets/skill-logos/firestore.svg";
 import colorSharp from "../../assets/image/color-sharp.png";
-import arrow1 from "../../assets/image/arrow1.svg";
+
 
 import "./Skills.css";
 
