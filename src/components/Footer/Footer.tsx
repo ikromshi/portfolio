@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
+        <Row id="footer-row" className="align-items-center">
         {/* <Col xm={6} className="text-center text-sm-end"> */}
           <div id="social-icon">
             <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank"><img src={LinkedIn} alt="" /></a>
