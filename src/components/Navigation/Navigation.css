@@ -30,6 +30,22 @@ span.navbar-text {
     align-items: center;
 }
 .social-icon {
+  grid-area: 1 / 5 / 2 / 6;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.social-icon a {
+  transition: all 0.3s ease 0s;
+  color: white;
+  border-radius: 50px;
+}
+.social-icon a img {
+  width: 50%;
+  height: 50%;
+}
+/* .social-icon {
     display: inline-block;
     margin-left: 14px;
 }
@@ -65,7 +81,7 @@ span.navbar-text {
 }
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-}
+} */
 .navbar-text button {
   font-weight: 700;
   color: #fff;
