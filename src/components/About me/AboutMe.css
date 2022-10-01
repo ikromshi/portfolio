@@ -1,0 +1,12 @@
+.about_me {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 60px 0 200px 0;
+}
+.about_me img {
+  width: 92%;
+}
+.about_me h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 30px;
+}
