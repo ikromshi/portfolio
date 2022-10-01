@@ -31,6 +31,9 @@
   line-height: 1.5em;
   width: 96%;
 }
+.banner a {
+  text-decoration: none;
+}
 .banner button {
   color: #fff;
   font-weight: 700;

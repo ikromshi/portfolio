@@ -47,7 +47,9 @@ export const Banner = () => {
             {/* <span className="tagline">Welcome to my Portfolio!</span> */}
             <h1>{`Hi, I'm Ikrom. I am a `}<span className="wrap">{text}</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia labore sapiente tempora ipsa dolores quaerat quidem maxime eius debitis sequi, cumque ad provident reiciendis quo repellat molestias voluptates rem!</p>
-            <button onClick={() => console.log("Cliked")}>Let's connect <ArrowRightCircle size={25}/></button>
+            <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank">
+              <button>Let's connect <ArrowRightCircle size={25}/></button>
+            </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Image" />
