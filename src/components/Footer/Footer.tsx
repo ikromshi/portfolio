@@ -14,7 +14,7 @@ export const Footer = () => {
           <div id="social-icon">
             <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank"><img src={LinkedIn} alt="" /></a>
             <a href="https://github.com/ikromshi" target="blank"><img src={Github} alt="" /></a>
-            <a href=""><img src={Email} alt="" /></a>
+            <a href="mailto:numanovikrom454@gmail.com"><img src={Email} alt="" /></a>
           </div>
           <p><a href="https://t.me/ikromshi" id="telegram-link">Ikromshi</a></p>
         {/* </Col> */}
