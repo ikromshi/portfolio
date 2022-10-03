@@ -9,7 +9,7 @@
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   -webkit-box-align: center;
-  align-items:flex-start;
+  align-items:flex-end;
 }
 #social-icon a {
   transition: all 0.3s ease 0s;
@@ -23,9 +23,9 @@
 /* .footer img {
   width: 26%;
 } */
-.footer p {
-  font-weight: 400;
-  font-size: 14px;
+.footer h4 {
+  /* font-weight: 400;
+  font-size: 14px; */
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
