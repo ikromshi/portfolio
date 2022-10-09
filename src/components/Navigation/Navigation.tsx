@@ -46,11 +46,11 @@ export const Navigation = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank"><img src={LinkedIn} alt="social" /></a>
+              <a href="https://www.linkedin.com/in/ikromshi/" target="blank"><img src={LinkedIn} alt="social" /></a>
               <a href="https://github.com/ikromshi" target="blank"><img src={Github} alt="social" /></a>
               <a href="mailto:numanovikrom454@gmail.com" target="blank"><img src={Email} alt="social" /></a>
             </div>
-            <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank">
+            <a href="https://www.linkedin.com/in/ikromshi/" target="blank">
               <button className="vvd">
                 Let's Connect
               </button>

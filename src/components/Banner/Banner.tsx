@@ -49,7 +49,7 @@ export const Banner = () => {
             <h3>Welcome to my Web Portfolio!</h3> <br />
             <p>Here you will have a slight glimpse into my professional world. I have created this website to tell you a little bit about myself as well as share some of the work I've done and skills I've acquired as a CS major.</p> <br />
             
-            <a href="https://www.linkedin.com/in/ikrom-numonov-79107020a?trk=public_profile_browsemap" target="blank">
+            <a href="https://www.linkedin.com/in/ikromshi/" target="blank">
               <button>Let's connect <ArrowRightCircle size={25}/></button>
             </a>
           </Col>
