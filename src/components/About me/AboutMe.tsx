@@ -54,11 +54,9 @@ export const AboutMe = () => {
           </Col>
           <Col md={6}>
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam culpa ab aut sequi rerum cupiditate modi in est sit reprehenderit deleniti sed, neque aliquam dolorem quibusdam provident voluptates hic!</p>
+            <p>I'm currently enrolled as a sophomore at Ithaca College pursuing an undergraduate degree. I am majoring in Computer Science with a Data Science minor. I am interested in the Web Development field and have a decent amount of experience in it - mainly using the React framework - so I'm actively seeking internship opportunities related to the same.</p>
+            <p>Over the course of my studies, I have developed strong programming skills, enjoy collaboration and teamwork, and have a wide variety of interest in Web Development. </p>
+            <p>During the last year and a half, I have been practicing with multiple different frameworks and tools to build fascinating projects in various programming languages.</p>
           </Col>
         </Row>
       </Container>
