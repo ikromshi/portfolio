@@ -9,7 +9,7 @@ import hangmanApp from "../../assets/image/hangman-app.png";
 import monsterRolodex from "../../assets/image/monster-rolodex.png";
 import "./Projects.css";
 
-export const Projects = () => {
+const Projects = () => {
   const reactProjects = [
     {
       title: "Crown Clothing",
@@ -106,3 +106,5 @@ export const Projects = () => {
     </section>
   )
 }
+
+export default Projects;

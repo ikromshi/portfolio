@@ -21,7 +21,7 @@ import colorSharp from "../../assets/image/color-sharp.png";
 
 import "./Skills.css";
 
-export const Skills = () => {
+const Skills = () => {
   const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -152,5 +152,6 @@ export const Skills = () => {
       <img className="background-image-left" src={colorSharp} alt="background image left" />
     </section>
   )
-
 }
+
+export default Skills;

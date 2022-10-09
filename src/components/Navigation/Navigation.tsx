@@ -7,7 +7,7 @@ import Github from "../../assets/image/github.png";
 import "../../assets/image/Ikrom.svg";
 import "./Navigation.css";
 
-export const Navigation = () => {
+const Navigation = () => {
   const [activeLink, setActiveLink] = useState<String>("home");
   const [scrolled, setScrolled] = useState<Boolean>(false);
 
@@ -61,3 +61,5 @@ export const Navigation = () => {
     </Navbar>
   )
 }
+
+export default Navigation;

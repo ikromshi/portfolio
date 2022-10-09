@@ -5,7 +5,7 @@ import LinkedIn from "../../assets/image/linkedin2.png";
 import Github from "../../assets/image/github.png";
 import "./Footer.css";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <Container>
@@ -21,3 +21,5 @@ export const Footer = () => {
     </footer>
   )
 }
+
+export default Footer;

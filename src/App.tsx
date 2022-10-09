@@ -1,22 +1,28 @@
-import { Navigation } from "./components/Navigation/Navigation";
-import { Projects } from "./components/Projects/Projects";
-import { AboutMe } from "./components/About me/AboutMe";
-import { Banner } from "./components/Banner/Banner";
-import { Skills } from "./components/Skills/Skills";
-import { Footer } from "./components/Footer/Footer";
+import { Spinner } from "react-bootstrap";
+import { lazy, Suspense } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
+const Navigation = lazy(() => import("./components/Navigation/Navigation"));
+const Banner = lazy(() => import("./components/Banner/Banner"));
+const Skills = lazy(() => import("./components/Skills/Skills"));
+const Projects = lazy(() => import("./components/Projects/Projects"));
+const AboutMe = lazy(() => import("./components/About me/AboutMe"));
+const Footer = lazy(() => import("./components/Footer/Footer"));
+
+
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-      <Banner />
-      <Skills />
-      <Projects />
-      <AboutMe />
-      <Footer />
-    </div>
+    <Suspense fallback={<Spinner animation={"border"} />}>
+      <div className="App">
+        <Navigation />
+        <Banner />
+        <Skills />
+        <Projects />
+        <AboutMe />
+        <Footer />
+      </div>
+    </Suspense>
   );
 }
 

@@ -3,7 +3,7 @@ import { useState } from "react"
 import contactImage from "../../assets/image/contact-img.svg";
 import "./AboutMe.css";
 
-export const AboutMe = () => {
+const AboutMe = () => {
   const formInitialDetails = {
     firstName: "",
     lastName: "",
@@ -63,3 +63,5 @@ export const AboutMe = () => {
     </section>
   )
 }
+
+export default AboutMe;
