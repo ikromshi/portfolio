@@ -22,26 +22,6 @@ import colorSharp from "../../assets/image/color-sharp.png";
 import "./Skills.css";
 
 const Skills = () => {
-  const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 5
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 3
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1
-    }
-  };
-
   return (
     <section className="skill" id="skills">
       <Container>
@@ -53,31 +33,31 @@ const Skills = () => {
               <h4>Languages I am proficient in:</h4>
               <Row className="skill-slider">
                 <Col className="item">
-                  <img src={typescript} alt="Img" className="img"/>
-                  <h5>TypeScript</h5>
+                  <img src={typescript} alt="SVG icon"className="img"/>
+                  <h5>TS</h5>
                 </Col>
                 <Col className="item">
-                  <img src={javascript} alt="Img" />
-                  <h5>JavaScript</h5>
+                  <img src={javascript} alt="SVG icon"/>
+                  <h5>JS</h5>
                 </Col>
                 <Col className="item">
-                  <img src={java} alt="Img" />
+                  <img src={java} alt="SVG icon"/>
                   <h5>Java</h5>
                 </Col>
                 <Col className="item">
-                  <img src={python} alt="Img" />
+                  <img src={python} alt="SVG icon"/>
                   <h5>Python</h5>
                 </Col>
                 <Col className="item">
-                  <img src={r} alt="Img" />
+                  <img src={r} alt="SVG icon"/>
                   <h5>R</h5>
                 </Col>
                 <Col className="item">
-                  <img src={css} alt="Img" />
+                  <img src={css} alt="SVG icon"/>
                   <h5>CSS</h5>
                 </Col>
                 <Col className="item">
-                  <img src={html} alt="Img" />
+                  <img src={html} alt="SVG icon"/>
                   <h5>HTML</h5>
                 </Col>
                 
@@ -85,63 +65,55 @@ const Skills = () => {
               <h4>Tools I commonly in my front-end projects:</h4>
               <Row className="skill-slider">
                 <Col className="item">
-                  <img src={react} alt="Img" className="img"/>
+                  <img src={react} alt="SVG icon"className="img"/>
                   <h5>React</h5>
                 </Col>
                 <Col className="item">
-                  <img src={redux} alt="Img" />
+                  <img src={redux} alt="SVG icon"/>
                   <h5>Redux</h5>
                 </Col>
                 <Col className="item">
-                  <img src={firebase} alt="Img" />
+                  <img src={firebase} alt="SVG icon"/>
                   <h5>Firebase</h5>
                 </Col>
                 <Col className="item">
-                  <img src={sass} alt="Img" />
+                  <img src={sass} alt="SVG icon"/>
                   <h5>Sass</h5>
                 </Col>
                 <Col className="item">
-                  <img src={firebase} alt="Img" />
+                  <img src={firebase} alt="SVG icon"/>
                   <h5>Firestore</h5>
                 </Col>
                 <Col className="item">
-                  <img src={git} alt="Img" />
+                  <img src={git} alt="SVG icon"/>
                   <h5>Git</h5>
                 </Col>
                 <Col className="item">
-                  <img src={github} alt="Img" />
+                  <img src={github} alt="SVG icon"/>
                   <h5>Github</h5>
                 </Col>
               </Row>
               <h4>Tools I'm currently learning:</h4>
               <Row className="skill-slider">
                 <Col className="item">
-                  {/* <img src={react} alt="Img" className="img"/>
-                  <h5>React</h5> */}
                 </Col>
                 <Col className="item">
-                  {/* <img src={redux} alt="Img" />
-                  <h5>Redux</h5> */}
                 </Col>
                 <Col className="item">
-                  <img src={flask} alt="Img" />
+                  <img src={flask} alt="SVG icon"/>
                   <h5>Flask</h5>
                 </Col>
                 <Col className="item">
-                  <img src={sqlalchemy} alt="Img" />
+                  <img src={sqlalchemy} alt="SVG icon"/>
                   <h5>SQLAlchemy</h5>
                 </Col>
                 <Col className="item">
-                  <img src={sqlite} alt="Img" />
+                  <img src={sqlite} alt="SVG icon"/>
                   <h5>SQLite</h5>
                 </Col>
                 <Col className="item">
-                  {/* <img src={git} alt="Img" />
-                  <h5>Git</h5> */}
                 </Col>
                 <Col className="item">
-                  {/* <img src={github} alt="Img" />
-                  <h5>Github</h5> */}
                 </Col>
               </Row>
             </div>
@@ -149,7 +121,7 @@ const Skills = () => {
         </Row>
       </Container>
       
-      <img className="background-image-left" src={colorSharp} alt="background image left" />
+      <img className="background-image-left" src={colorSharp} alt="icon" />
     </section>
   )
 }
