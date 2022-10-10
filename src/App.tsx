@@ -13,28 +13,26 @@ import Footer from "./components/Footer/Footer";
 
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  const [loadTime, setLoadTime] = useState(2500);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    let timer1 = setTimeout(() => {
-      setIsLoading(false)
-      setLoadTime(0);
-    }, loadTime);
+  // useEffect(() => {
+  //   let timer1 = setTimeout(() => {
+  //     setIsLoading(false)
+  //   }, 1750);
 
-    return () => {
-      clearTimeout(timer1);
-    }
-  }, [])
+  //   return () => {
+  //     clearTimeout(timer1);
+  //   }
+  // }, [])
 
 
   return (
-    <>
-    { isLoading ? (
-      <div className="spinner-div">
-        <Spinner animation={"border"}/> 
-      </div>) :
-      (
+    // <>
+    // { isLoading ? (
+    //   <div className="spinner-div">
+    //     <Spinner animation={"border"}/> 
+    //   </div>) :
+    //   (
         <div className="App">
           <Navigation />
           <Banner />
@@ -43,9 +41,9 @@ function App() {
           <AboutMe />
           <Footer />
         </div>
-      )
-    }
-  </>
+      // )
+    // }
+  // </>
   );
 }
 
