@@ -62,7 +62,7 @@ const Skills = () => {
                 </Col>
                 
               </Row>
-              <h4>Tools I commonly in my front-end projects:</h4>
+              <h4>Tools I commonly to build my projects:</h4>
               <Row className="skill-slider">
                 <Col className="item">
                   <img src={react} alt="SVG icon"className="img"/>
@@ -93,7 +93,7 @@ const Skills = () => {
                   <h5>Github</h5>
                 </Col>
               </Row>
-              <h4>Tools I'm currently learning:</h4>
+              {/* <h4>Tools I'm currently learning:</h4> */}
               <Row className="skill-slider">
                 <Col className="item">
                 </Col>
