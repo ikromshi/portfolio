@@ -44,11 +44,29 @@
   margin-bottom: 1rem;
 }
 .skill-slider .item img {
-  max-height: 100%;
-  max-width: 100%;
-  margin-left: 2rem;
+  width: 80%; /* choose the percentage that best fits your needs */
+  height: auto; /* maintains aspect ratio */
   margin-bottom: -2rem;
+  display: block;
+  margin-left: auto;
+  /* margin-right: auto; */
 }
+
+/* Mobile view */
+@media (max-width: 576px) {
+  .skill-slider .item img {
+    width: 100%; /* adjust as needed */
+  }
+}
+
+.skill-slider .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+s
 .skill-slider .item h5 {
   color: rgb(217, 207, 207);
 }

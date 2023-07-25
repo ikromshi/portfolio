@@ -30,90 +30,79 @@ const Skills = () => {
             <div className="skill-bx">
               <h2>My Skills</h2>
               <p>I have a wide variety of experience with the tools shown below.</p>
-              <h4>Languages I am proficient in:</h4>
+              <h4>I am proficient in:</h4>
               <Row className="skill-slider">
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={typescript} alt="SVG icon"className="img"/>
                   <h5>TS</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={javascript} alt="SVG icon"/>
                   <h5>JS</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={java} alt="SVG icon"/>
                   <h5>Java</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={python} alt="SVG icon"/>
                   <h5>Python</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={r} alt="SVG icon"/>
                   <h5>R</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={css} alt="SVG icon"/>
                   <h5>CSS</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={html} alt="SVG icon"/>
                   <h5>HTML</h5>
                 </Col>
                 
               </Row>
-              <h4>Tools I commonly to build my projects:</h4>
+              <h4>Tools I commonly use to build my projects:</h4>
               <Row className="skill-slider">
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={react} alt="SVG icon"className="img"/>
                   <h5>React</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={redux} alt="SVG icon"/>
                   <h5>Redux</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={firebase} alt="SVG icon"/>
                   <h5>Firebase</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={sass} alt="SVG icon"/>
                   <h5>Sass</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={firebase} alt="SVG icon"/>
                   <h5>Firestore</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={git} alt="SVG icon"/>
                   <h5>Git</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={github} alt="SVG icon"/>
                   <h5>Github</h5>
                 </Col>
-              </Row>
-              {/* <h4>Tools I'm currently learning:</h4> */}
-              <Row className="skill-slider">
-                <Col className="item">
-                </Col>
-                <Col className="item">
-                </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={flask} alt="SVG icon"/>
                   <h5>Flask</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={sqlalchemy} alt="SVG icon"/>
                   <h5>SQLAlchemy</h5>
                 </Col>
-                <Col className="item">
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={sqlite} alt="SVG icon"/>
                   <h5>SQLite</h5>
-                </Col>
-                <Col className="item">
-                </Col>
-                <Col className="item">
                 </Col>
               </Row>
             </div>
