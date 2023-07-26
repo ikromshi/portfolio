@@ -2,6 +2,9 @@ import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap"; 
 import css from "../../assets/skill-logos/css.svg";
 import firebase from "../../assets/skill-logos/firebase.svg";
+import spring from "../../assets/skill-logos/spring.svg";
+import c from "../../assets/skill-logos/c.svg";
+import pd from "../../assets/skill-logos/pd.svg";
 import flask from "../../assets/skill-logos/flask.svg";
 import git from "../../assets/skill-logos/git.svg";
 import github from "../../assets/skill-logos/github.svg";
@@ -17,6 +20,7 @@ import sqlalchemy from "../../assets/skill-logos/sqlalchemy.svg";
 import sqlite from "../../assets/skill-logos/sqlite.svg";
 import typescript from "../../assets/skill-logos/typescript.svg";
 import colorSharp from "../../assets/image/color-sharp.png";
+
 
 
 import "./Skills.css";
@@ -49,6 +53,10 @@ const Skills = () => {
                   <h5>Python</h5>
                 </Col>
                 <Col className="item" xs={6} md={4} lg={2}>
+                  <img src={c} alt="SVG icon"/>
+                  <h5>C</h5>
+                </Col>
+                <Col className="item" xs={6} md={4} lg={2}>
                   <img src={r} alt="SVG icon"/>
                   <h5>R</h5>
                 </Col>
@@ -62,7 +70,7 @@ const Skills = () => {
                 </Col>
                 
               </Row>
-              <h4>Tools I commonly use to build my projects:</h4>
+              <h4>Tools I commonly use in my projects:</h4>
               <Row className="skill-slider">
                 <Col className="item" xs={6} md={4} lg={2}>
                   <img src={react} alt="SVG icon"className="img"/>
@@ -103,6 +111,14 @@ const Skills = () => {
                 <Col className="item" xs={6} md={4} lg={2}>
                   <img src={sqlite} alt="SVG icon"/>
                   <h5>SQLite</h5>
+                </Col>
+                <Col className="item" xs={6} md={4} lg={2}>
+                  <img src={spring} alt="SVG icon"/>
+                  <h5>Spring Boot</h5>
+                </Col>
+                <Col className="item" xs={6} md={4} lg={2}>
+                  <img src={pd} alt="SVG icon"/>
+                  <h5>Pandas</h5>
                 </Col>
               </Row>
             </div>
