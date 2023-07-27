@@ -21,13 +21,13 @@ const Projects = () => {
       title: "Dijkstra Visualizer",
       description: "Check out my version of the Dijkstra Visualizer. You can build walls around the Start and End nodes to find the shortest path between them.",
       imgUrl: dijkstra,
-      webUrl: "https://pathfinding-algorithm-ikk.netlify.app/"
+      webUrl: "https://path-finder.ikromshi.com/"
     }, 
     {
       title: "Monsters Rolodex",
       description: "This is my first React project. Here I'm pulling raw data from the Robohash API to build multiple cards of Robots that you can filter by name.",
       imgUrl: monsterRolodex,
-      webUrl: "https://monsters-ikk.netlify.app/"
+      webUrl: "monsters-rolodex.ikromshi.com/"
     }
   ];
 
@@ -36,19 +36,19 @@ const Projects = () => {
       title: "Hangman",
       description: "I had to start somewhere, right? Check out my version of Hangman, which by the way was my first vanilla JS project ever, followed by - you guessed it - Notes and To-Do apps.",
       imgUrl: hangmanApp,
-      webUrl: "https://hangman-ikk.netlify.app/"
+      webUrl: "https://hangman.ikromshi.com/"
     },
     {
       title: "Notes App",
       description: "This project taught me a lot. Here, I learned how to work with the DOM to carry out CRUD operations. I learned how to work with forms and their inputs, which definitely laid the groundwork for my next projects.", 
       imgUrl: notesApp,
-      webUrl: "https://note-ikk.netlify.app/"
+      webUrl: "https://notes.ikromshi.com	"
     },
     {
       title: "To-Do app",
       description: "Your web development portfolio isn't complete unless you made a cool, functional To-Do app. And that's exactly what I did here. This app solidified my basic JS knowledge, since I had to do a lot of filtering and sorting to get everything right.",
       imgUrl: todoApp,
-      webUrl: "https://todo-ikk.netlify.app/"
+      webUrl: "https://todo.ikromshi.com	/"
     }
   ]
 
