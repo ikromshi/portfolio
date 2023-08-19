@@ -24,25 +24,18 @@ const AboutMe = () => {
             <img src={contactImage} alt="Contact me" />
           </Col>
           <Col md={6}>
-            <h2>About Me</h2>
-            <p>I'm currently enrolled as a sophomore at Ithaca College pursuing an undergraduate degree. I am majoring in Computer Science with a Data Science minor. I'm also interested in the Web Development field and have a decent amount of experience in it - mainly using the React framework - so I'm actively seeking internship opportunities related to the same.</p>
-            <p>Over the course of my studies, I have developed strong programming skills, did a lot of collaboration and teamwork, and experienced an ever-growing interest in learning more about the field. During the last year and a half, I've been practicing with multiple different tools and frameworks to build fascinating projects.</p>
+            <h2>
+              About Me
+            </h2>
             <p>
-              My project "tool stack" includes:
-              <ul>
-                <li>
-                  React with TypeScript
-                </li> 
-                <li>
-                  CSS/SASS | Styled Components
-                </li> 
-                <li>
-                  Flask with Python
-                </li> 
-                <li>
-                  SQLAlchemy, SQLite, SQL | Firestore
-                </li> 
-              </ul>
+              Hello! I'm Ikrom Numonov, currently a junior at Ithaca College, majoring in Computer Science and minoring in Data Science.
+              I'm passionate about the interplay between software and data, and how it shapes our digital future.
+            </p>
+            <p>
+              My technical toolkit is versatile, ranging from languages like Python, Java, JavaScript, and TypeScript, to platforms like React.js/Redux, Flask, and Spring Boot. 
+            </p>
+            <p>
+              Always eager to collaborate, innovate, and learn, I'm seeking opportunities to apply my skills and contribute to tech-forward endeavors.
             </p>
             <a className="resume-button" href={Resume} target="_blank" onClick={() => gaEventTracker("resume")}>
               <button>Get my resume <ArrowRightCircle size={25} /></button> 
