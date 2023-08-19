@@ -1,38 +1,19 @@
-import { useState, useEffect } from "react";
-import { Spinner } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-
 import Navigation from "./components/Navigation/Navigation";
 import Projects from "./components/Projects/Projects";
-import AboutMe from "./components/About me/AboutMe";
+import {AboutMe} from "./components/About me/AboutMe";
 import Banner from "./components/Banner/Banner";
 import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
 
+import ReactGA from 'react-ga';
+  const TRACKING_ID = "G-4T7F9CKR2D"; // OUR_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
 
 function App() {
-  // const [isLoading, setIsLoading] = useState(true);
-
-  // useEffect(() => {
-  //   let timer1 = setTimeout(() => {
-  //     setIsLoading(false)
-  //   }, 1750);
-
-  //   return () => {
-  //     clearTimeout(timer1);
-  //   }
-  // }, [])
-
-
   return (
-    // <>
-    // { isLoading ? (
-    //   <div className="spinner-div">
-    //     <Spinner animation={"border"}/> 
-    //   </div>) :
-    //   (
         <div className="App">
           <Navigation />
           <Banner />
@@ -41,9 +22,6 @@ function App() {
           <AboutMe />
           <Footer />
         </div>
-      // )
-    // }
-  // </>
   );
 }
 

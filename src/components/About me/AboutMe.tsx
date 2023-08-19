@@ -4,7 +4,18 @@ import contactImage from "../../assets/image/contact-img.svg";
 import Resume from "../../assets/media/Resume.pdf";
 import "./AboutMe.css";
 
+import ReactGA from "react-ga";
+
+const useAnalyticsEventTracker = (category="interaction") => {
+  const eventTracker = (action = "see resume", label = "resume") => {
+    ReactGA.event({category, action, label});
+  }
+  return eventTracker;
+}
+
 const AboutMe = () => {
+  const gaEventTracker = useAnalyticsEventTracker('See resume');
+
   return (
     <section className="about_me" id="about_me">
       <Container>
@@ -33,7 +44,7 @@ const AboutMe = () => {
                 </li> 
               </ul>
             </p>
-            <a className="resume-button" href={Resume} target="_blank">
+            <a className="resume-button" href={Resume} target="_blank" onClick={() => gaEventTracker("resume")}>
               <button>Get my resume <ArrowRightCircle size={25} /></button> 
             </a>
           </Col>
@@ -43,4 +54,4 @@ const AboutMe = () => {
   )
 }
 
-export default AboutMe;
+export {AboutMe, useAnalyticsEventTracker};

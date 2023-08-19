@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../../assets/image/header-img.svg"
 import "./Banner.css";
+import { useAnalyticsEventTracker } from "../About me/AboutMe";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -11,6 +12,8 @@ const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random()*100)
   const period = 2000;
+
+  const gaEventTracker = useAnalyticsEventTracker('See resume');
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -48,7 +51,7 @@ const Banner = () => {
               <h1>{`Hi, I'm Ikrom. I am a `}<span className="wrap">{text}</span></h1>
               <h3>Welcome to my Web Portfolio!</h3> <br />
               <p>Here you will have a slight glimpse into my professional world. I have created this website to tell you a little bit about myself as well as share some of the work I've done and skills I've acquired as a CS major.</p> <br />
-              <a href="https://www.linkedin.com/in/ikromshi/" target="blank">
+              <a href="https://www.linkedin.com/in/ikromshi/" target="blank" onClick={() => gaEventTracker("LinkedIn")}>
                 <button>Let's connect <ArrowRightCircle size={25}/></button>
               </a>
             </Col>
