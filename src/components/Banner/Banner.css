@@ -41,6 +41,7 @@
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
+  min-height: 150px;
   display: block;
 }
 .banner p {
@@ -91,3 +92,4 @@
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
