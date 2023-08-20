@@ -1,10 +1,11 @@
 .banner {
-  background: linear-gradient(45deg, #28122b, #0a141f, #000000);
+  background: linear-gradient(45deg, #490252, #0a2746, #034f21);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
   background-size: 200% 200%;
   padding-top: 150px;
   padding-bottom: 150px;
   position: relative;
-  animation: Gradient 8s ease infinite;
+  animation: Gradient 4s ease infinite;
 }
 
 @keyframes Gradient {
