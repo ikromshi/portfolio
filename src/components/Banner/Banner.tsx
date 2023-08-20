@@ -56,13 +56,17 @@ const Banner = () => {
               </a>
             </Col>
             <Col className="d-none d-md-block" xs={12} md={6} xl={5}>
-              <img src={headerImg} alt="Header" className="header-img"/>
+              {/* ANIMATION HERE */}
+              <div className="line-animation-container">
+                {Array.from({ length: 10 }).map((_, index) => (
+                  <div key={index} className="line"></div>
+                ))}
+            </div>
             </Col>
           </Row>
         </div>
       </Container>
     </section>
-
   )
 }
 
