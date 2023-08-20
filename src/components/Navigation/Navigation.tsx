@@ -6,13 +6,11 @@ import LinkedIn from "../../assets/image/linkedin2.png";
 import Github from "../../assets/image/github.png";
 import "../../assets/image/Ikrom.svg";
 import "./Navigation.css";
-import { useAnalyticsEventTracker } from "../About me/AboutMe";
 
 const Navigation = () => {
   const [activeLink, setActiveLink] = useState<String>("home");
   const [scrolled, setScrolled] = useState<Boolean>(false);
 
-  const gaEventTracker = useAnalyticsEventTracker('See resume');
 
   useEffect(() => {
     const onScroll = () => {
@@ -49,7 +47,7 @@ const Navigation = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/ikromshi/" target="blank" onClick={() => gaEventTracker("Linked In")}><img src={LinkedIn} alt="social" /></a>
+              <a href="https://www.linkedin.com/in/ikromshi/" target="blank" ><img src={LinkedIn} alt="social" /></a>
               <a href="https://github.com/ikromshi" target="blank"><img src={Github} alt="social" /></a>
               <a href="mailto:numanovikrom454@gmail.com" target="blank"><img src={Email} alt="social" /></a>
             </div>
