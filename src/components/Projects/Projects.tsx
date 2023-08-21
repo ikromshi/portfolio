@@ -27,7 +27,7 @@ const Projects = () => {
       title: "Monsters Rolodex",
       description: "This is my first React project. Here I'm pulling raw data from the Robohash API to build multiple cards of Robots that you can filter by name.",
       imgUrl: monsterRolodex,
-      webUrl: "monsters-rolodex.ikromshi.com/"
+      webUrl: "https://monsters-rolodex.ikromshi.com/"
     }
   ];
 
@@ -42,13 +42,13 @@ const Projects = () => {
       title: "Notes App",
       description: "This project taught me a lot. Here, I learned how to work with the DOM to carry out CRUD operations. I learned how to work with forms and their inputs, which definitely laid the groundwork for my next projects.", 
       imgUrl: notesApp,
-      webUrl: "https://notes.ikromshi.com	"
+      webUrl: "https://notes.ikromshi.com/"
     },
     {
       title: "To-Do app",
       description: "Your web development portfolio isn't complete unless you made a cool, functional To-Do app. And that's exactly what I did here. This app solidified my basic JS knowledge, since I had to do a lot of filtering and sorting to get everything right.",
       imgUrl: todoApp,
-      webUrl: "https://todo.ikromshi.com	/"
+      webUrl: "https://todo.ikromshi.com/"
     }
   ]
 
