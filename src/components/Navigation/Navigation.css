@@ -5,8 +5,26 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
-  background: linear-gradient(90deg, #1b151c, #051425, #032410);
-  animation: Gradient 4s ease infinite;
+}
+
+/* Styles that apply only to mobile */
+@media (max-width: 767px) {
+  nav.navbar {
+    background: linear-gradient(90deg, #1b151c, #051425, #032410);
+    animation: Gradient 4s ease infinite;
+  }
+
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 }
 
 @keyframes Gradient {
