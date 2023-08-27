@@ -14,10 +14,7 @@
 	font-size: 45px;
 	font-weight: 700;
 }
-.skill h4 {
-  text-align: center;
-  margin: 4rem 0 2rem 0;
-}
+
 .skill p {
   color: #B8B8B8;
   font-size: 18px;
@@ -46,7 +43,7 @@
 .skill-slider .item img {
   width: 80%; /* choose the percentage that best fits your needs */
   height: auto; /* maintains aspect ratio */
-  margin-bottom: -2rem;
+  /* margin-bottom: -2rem; */
   display: block;
   margin-left: auto;
   /* margin-right: auto; */
@@ -66,15 +63,14 @@
   justify-content: center;
   margin-bottom: 1.5rem;
 }
-s
-.skill-slider .item h5 {
-  text-align: center;
-  color: rgb(217, 207, 207);
-}
+
 .background-image-left {
   top: 28%;
   position: absolute;
   bottom: 0;
   width: 40%;
   z-index: -4;
+}
+.skill-bx h4 {
+  margin-bottom: 3rem;
 }

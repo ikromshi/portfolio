@@ -20,7 +20,7 @@ import sqlalchemy from "../../assets/skill-logos/sqlalchemy.svg";
 import sqlite from "../../assets/skill-logos/sqlite.svg";
 import typescript from "../../assets/skill-logos/typescript.svg";
 import colorSharp from "../../assets/image/color-sharp.png";
-
+import firestoreNew from "../../assets/skill-logos/firestore-svgrepo-com.svg"
 
 
 import "./Skills.css";
@@ -37,88 +37,68 @@ const Skills = () => {
               <h4>I am proficient in:</h4>
               <Row className="skill-slider">
                 <Col className="item" xs={6} md={4} lg={2}>
-                  <img src={typescript} alt="SVG icon"className="img"/>
-                  <h5>TS</h5>
+                  <img src={typescript} alt="TS" title="TS" className="img"/>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="JS" title="JS">
                   <img src={javascript} alt="SVG icon"/>
-                  <h5>JS</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="Java" title="Java">
                   <img src={java} alt="SVG icon"/>
-                  <h5>Java</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="Python" title="Python">
                   <img src={python} alt="SVG icon"/>
-                  <h5>Python</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="C" title='C'>
                   <img src={c} alt="SVG icon"/>
-                  <h5>C</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt='R' title="R">
                   <img src={r} alt="SVG icon"/>
-                  <h5>R</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="CSS" title="CSS">
                   <img src={css} alt="SVG icon"/>
-                  <h5>CSS</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt='HTML' title="HTML">
                   <img src={html} alt="SVG icon"/>
-                  <h5>HTML</h5>
                 </Col>
                 
               </Row>
               <h4>Tools I commonly use in my projects:</h4>
               <Row className="skill-slider">
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="React" title="React">
                   <img src={react} alt="SVG icon"className="img"/>
-                  <h5>React</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="Redux" title="Redux">
                   <img src={redux} alt="SVG icon"/>
-                  <h5>Redux</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="Firebase" title='Firebase'>
                   <img src={firebase} alt="SVG icon"/>
-                  <h5>Firebase</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="SASS" title="SASS">
                   <img src={sass} alt="SVG icon"/>
-                  <h5>Sass</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
-                  <img src={firebase} alt="SVG icon"/>
-                  <h5>Firestore</h5>
+                <Col className="item" xs={6} md={4} lg={2} alt='Firestore' title="Firestore">
+                  <img src={firestoreNew} alt="SVG icon"/>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="Git" title="Git">
                   <img src={git} alt="SVG icon"/>
-                  <h5>Git</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="Github" title="Github">
                   <img src={github} alt="SVG icon"/>
-                  <h5>Github</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt='Flask' title='Flask'>
                   <img src={flask} alt="SVG icon"/>
-                  <h5>Flask</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="SQLAlchemy" title="SQLAlchemy">
                   <img src={sqlalchemy} alt="SVG icon"/>
-                  <h5>SQLAlchemy</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="SQLine" title="SQLite">
                   <img src={sqlite} alt="SVG icon"/>
-                  <h5>SQLite</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt="Spring Boot" title="Spring Boot">
                   <img src={spring} alt="SVG icon"/>
-                  <h5>Spring Boot</h5>
                 </Col>
-                <Col className="item" xs={6} md={4} lg={2}>
+                <Col className="item" xs={6} md={4} lg={2} alt='Pandas' title="Pandas">
                   <img src={pd} alt="SVG icon"/>
-                  <h5>Pandas</h5>
                 </Col>
               </Row>
             </div>

@@ -28,7 +28,7 @@ const AboutMe = () => {
               About Me
             </h2>
             <p>
-              Hello! I'm Ikrom Numonov, currently in my juior year, majoring in Computer Science and minoring in Data Science.
+              Hello! I'm Ikrom Numonov, currently in my junior year, majoring in Computer Science and minoring in Data Science.
               I'm passionate about the interplay between software and data, and how it shapes our digital future.
             </p>
             <p>
